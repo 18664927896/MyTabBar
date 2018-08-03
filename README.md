@@ -81,7 +81,7 @@
   
   # 自定义UITabBarController：SGTabBarController
   
-  ## 关键代码:用kvc原理替换原有tabBar
+  ## 1:关键代码:用kvc原理替换原有tabBar
   
   - (void)viewDidLoad {<br/>
          [super viewDidLoad];<br/>
@@ -93,7 +93,7 @@
     [self setValue:myTabBar forKey:@"tabBar"];<br/>
 }
 
-## 实现MyTabBarDelegate代理方法
+  ## 2:实现MyTabBarDelegate代理方法
 
  #pragma mark - MyTabBarDelegate
  -(void)addButtonClick:(SGTabBar *)tabBar<br/>
