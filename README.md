@@ -95,12 +95,12 @@
 
   ## 2:实现MyTabBarDelegate代理方法
 
- #pragma mark - MyTabBarDelegate
- -(void)addButtonClick:(SGTabBar *)tabBar<br/>
- {<br/>
+   #pragma mark - MyTabBarDelegate
+   -(void)addButtonClick:(SGTabBar *)tabBar<br/>
+   {<br/>
      //跳到中间界面（这里也可以做其它操作，我这里直接跳到中间界面）<br/>
      [self setSelectedIndex:2];<br/>
- }<br/>
+   }<br/>
  
  
  # SGMiddleBtn
