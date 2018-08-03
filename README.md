@@ -1,5 +1,5 @@
 # MyTabBar
-自定义一个中间凸出的UITabBarController
+帮朋友自定义一个中间凸出的UITabBarController，欢迎大家指正！
 
 # 使用方法：
      //1:初始化一个tabBar控制器
